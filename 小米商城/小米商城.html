@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城页面</title>
+    <link
+      rel="stylesheet"
+      href="./swiper-bundle.css"
+    />
+    <link rel="stylesheet" href="./css/1.css">
+    <link rel="stylesheet" href="./font_3801653_deiw8r9gt1b/iconfont.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="n">
+        <nav>
+            <div class="nav_left">
+                <a href="../小米官网/官网.html">小米官网</a>
+                <span>|</span>
+                <a href="">小米商城</a>
+                <span>|</span>
+                <a href="">MIUI</a>
+                <span>|</span>
+                <a href="">IoT</a>
+                <span>|</span>
+                <a href="">云服务</a>
+                <span>|</span>
+                <a href="">天星数科</a>
+                <span>|</span>
+                <a href="">有品</a>
+                <span>|</span>
+                <a href="">小爱开放平台</a>
+                <span>|</span>
+                <a href="">企业团购</a>
+                <span>|</span>
+                <a href="">资质证照</a>
+                <span>|</span>
+                <a href="">协议规则</a>
+                <span>|</span>
+                <div  class="app">
+                    <a href="">下载app</a>
+                    <div class="xiala">
+                        <div class="jiantou"></div>
+                        <img src="./img/download.png" alt="">
+                        <p>小米商城app</p>
+                    </div>
+                </div>
+                
+                <span>|</span>
+                <a href="">Select Location</a>
+                <span>|</span>
+                
+            </div>
+            <div class="nav_right">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+                <span>|</span>
+                <a href="">消息通知</a>
+                <span>|</span>
+                <i class="iconfont icon-gouwuche"></i>
+                <a href="">购物车</a>
+                <span>|</span>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="nav_l">
+        <img src="./img/logo-mi2.png" alt="" class="logo">
+        <ul>
+            <li><a href="#">小米手机</a></li>
+                <li><a href="#">Redmi红米</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" class="search1" placeholder="家电">
+            <button class="search2"><i class="iconfont icon-xiazai15" ></i></button>
+            <div class="search_xiala">
+                <p>全部商品</p>
+                <p>手机</p>
+                <p>空调</p>
+                <p>电视</p>
+                <p>笔记本</p>
+                <p>洗衣机</p>
+                <p>小米平板5</p>
+                <p>加湿器</p>
+            </div>
+        </div>
+       
+         
+    </div> 
+    <!-- 轮播图 -->
+    <div class="lunbo">
+        <div class="lunbo_left">
+            <ul>
+                <li ><a href="#" >手机 </a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >电视</a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >家电 </a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >笔记本 平板</a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" > 出行 穿戴 </a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >耳机 音响</a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >健康 儿童</a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >生活 箱包</a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" > 智能 路由器</a><i class="iconfont icon-dayu" ></i></li>
+                <li ><a href="#" >电源 配件</a><i class="iconfont icon-dayu" ></i></li>
+            </ul>
+        </div>
+        <div class="lunbo_right">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./img/轮播图1.jpeg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/轮播图2.webp" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/轮播图3.webp" alt=""></div>
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+          
+              <!-- Swiper JS -->
+              <script src="./swiper-bundle.js"></script>
+          
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 1,
+                  spaceBetween: 30,
+                  loop: true,
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                });
+              </script>
+        </div>
+    </div>
+    <!-- 图标部分 -->
+    <div class="tubiao">
+        <div class="tubiao_left">
+            <ul>
+                <li>
+                    <a href="#" ><i class="iconfont icon-shijianzhongbiao" ></i>保障服务</a>
+                </li>
+                <li><a href="#"><i class="iconfont icon-qiye" ></i>企业团购</a></li>
+                <li><a href="#" > <i class="iconfont icon-F" ></i>F码通道</a></li>
+                <li><a href="#" ><i class="iconfont icon-neicunka" ></i>米粉卡</a></li>
+                <li><a href="#" ><i class="iconfont icon-qian" ></i>以旧换新</a></li>
+                <li><a href="#" ><i class="iconfont icon-huafei" ></i>话费充值</a></li>
+            </ul>
+            
+        </div>
+        <div class="tubiao_right">
+            <ul>
+                <li><a href="#" class="mi1"></a></li>
+                <li><a href="#" class="mi2"></a></li>
+                <li><a href="#" class="mi3"></a></li>
+            </ul>
+        </div>
+    </div>
+   <div class="guanggao banxing">
+    <a href=""><img src="./img/广告.webp" alt=""></a>
+   </div>
+   <!-- 手机模块 -->
+   <div class="shouij banxing">
+    <div class="shouji_nav">
+        <h2>手机</h2>
+        <p>查看更多<i class="iconfont icon-dayu"></i></p>
+    </div>
+    <!-- 手机商品 -->
+    <div class="goods">
+        <div class="goods_left">
+            <a href=""><img src="img/phone.webp" alt=""></a>
+        </div>
+        <!-- 手机商品右侧部分 -->
+        <div class="goods_right">
+            <ul>
+                <li><a href="#" class="shouji_goods1" >
+                        <div class="goods1_img">
+                            <img src="img/phone1.webp" alt="">
+                        </div>
+                        <h3>Redmi Note 12 5G</h3>
+                        <p class="meet">三星 OLED 护眼屏｜骁龙 5G 芯｜5000mAh 电量</p>
+                        <p class="price">1199元</p>
+                        
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone2.webp" alt="">
+                        </div>
+                        <h3> Redmi Note 12 5G Pro</h3>
+                        <p class="meet"> IMX766 防抖相机｜OLED 柔性直屏｜67W 闪充</p>
+                        <p class="price">1699元起</p>
+                        
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone3.webp" alt="">
+                        </div>
+                        <h3> Redmi Note 12 Pro+</h3>
+                        <p class="meet">2亿超清防抖相机｜OLED 柔性直屏</p>
+                        <p class="price">2099元起</p>
+                        <del>2199元</del>
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone4.webp" alt="">
+                        </div>
+                        <h3>
+                            Redmi Note 11 5G
+                        </h3>
+                        <p class="meet">5000mAh大电量</p>
+                        <p class="price">1099元起</p>
+                        <del>1199元</del>
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone5.webp" alt="">
+                        </div>
+                        <h3>
+                            Redmi K50
+                        </h3>
+                        <p class="meet">2K直屏的狠旗舰</p>
+                        <p class="price">2099元起</p>
+                        <del>2399元</del>
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone6.webp" alt="">
+                        </div>
+                        <h3>
+                            Redmi Note 11T Pro
+                        </h3>
+                        <p class="meet">天玑8100｜真旗舰芯</p>
+                        <p class="price">1569元起</p>
+                        <del>1799元</del>
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone7.webp" alt="">
+                        </div>
+                        <h3>
+                            Xiaomi 12S Pro
+                        </h3>
+                        <p class="meet">骁龙8+ 旗舰处理器 | 徕卡影像</p>
+                        <p class="price">4399元起</p>
+                        <del>4699元</del>
+                    </a></li>
+                <li><a href="#" class="shouji_goods1">
+                        <div class="goods1_img">
+                            <img src="img/phone8.webp" alt="">
+                        </div>
+                        <h3>
+                            Redmi K50 至尊版
+                        </h3>
+                        <p class="meet">骁龙8+ ｜1.5K 高清直屏</p>
+                        <p class="price">2799元起</p>
+                        <del>2999元</del>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+   </div>
+   <!-- 底部模块 -->
+   <div class="footer_bgroud">
+    <footer >
+        <!-- 服务模块 -->
+        <div class="footer_nav banxing">
+            <ul>
+                <li><a href=""><i class="iconfont icon-wodeshouhou"></i>预约维修服务</a></li>
+                <li><a href=""><i class="iconfont icon-7tianwuliyoutuihuo"></i>7天无理由退货</a></li>
+                <li><a href=""><i class="iconfont icon-15tianwuliyoutuihuo"></i>15天免费换货</a></li>
+                <li><a href=""><i class="iconfont icon-liwu"></i>满69包邮</a></li>
+                <li><a href=""><i class="iconfont icon-didian"></i>1100余家售后网店</a></li>
+            </ul>
+        </div>
+        <!-- 指南模块 -->
+        <div class="footer_min banxing">
+            <div class="footer_min_left">
+                <dl>
+                    <dt>选购指南</dt>
+                    <dd><a href="">手机</a></dd>
+                    <dd><a href="">电视</a></dd>
+                    <dd><a href="">笔记本</a></dd>
+                    <dd><a href="">平板</a></dd>
+                    <dd><a href="">穿戴</a></dd>
+                    <dd><a href="">耳机</a></dd>
+                    <dd><a href="">家电</a></dd>
+                    <dd><a href="">路由器</a></dd>
+                    <dd><a href="">音箱</a></dd>
+                    <dd><a href="">配件</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务中心</dt>
+                    <dd><a href="">申请售后</a></dd>
+                    <dd><a href="">售后政策</a></dd>
+                    <dd><a href="">维修服务价格</a></dd>
+                    <dd><a href="">订单查询</a></dd>
+                    <dd><a href="">以旧换新</a></dd>
+                    <dd><a href="">保障服务</a></dd>
+                    <dd><a href="">防伪查询</a></dd>
+                    <dd><a href="">F码通道</a></dd>
+                </dl>
+                <dl>
+                    <dt>线下门店</dt>
+                    <dd><a href="">小米之家</a></dd>
+                    <dd><a href="">服务网点</a></dd>
+                    <dd><a href="">授权体验店</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于小米</dt>
+                    <dd><a href="">了解小米</a></dd>
+                    <dd><a href="">加入小米</a></dd>
+                    <dd><a href="">投资者关系</a></dd>
+                    <dd><a href="">环境，社会及管治</a></dd>
+                    <dd><a href="">廉洁举报</a></dd>
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a href="">新浪微博</a></dd>
+                    <dd><a href="">官方微信</a></dd>
+                    <dd><a href="">联系我们</a></dd>
+                    <dd><a href="">公益基金会</a></dd>
+                </dl>
+               
+            </div>
+            <div class="footer_min_right">
+                <h2>400-100-5678</h2>
+                    <p class="time">8:00-18:00(仅收市话费)</p>
+                    <a href="" class="customer"><i class="iconfont icon-xiaoxi"></i>人工客服</a>
+            </div>
+        </div>
+        <div class="footer_bgroud1">
+<!-- 协议模块 -->
+<div class="footer_text banxing">
+    <div class="footer_logo">
+        <img src="./img/logo-mi2.png" alt="">
+    </div>
+    <p>
+        <a href="">小米商城</a><span>|</span>
+        <a href=""> MIUI </a><span>|</span>
+        <a href="">米家</a><span>|</span>
+        <a href=""> 米聊 </a><span>|</span>
+        <a href=""> 多看</a><span>|</span>
+        <a href="">游戏</a><span>|</span>
+        <a href=""> 政企服务</a><span>|</span>
+        <a href="">小米天猫店</a><span>|</span>
+        <a href="">小米集团隐私政策</a><span>|</span>
+        <a href="">小米公司儿童信息保护规则 </a><span>|</span>
+        <a href="">小米商城隐私政策</a><span>|</span>
+        <a href="">小米商城用户协议</a><span>|</span>
+        <a href="">问题反馈</a><span>|</span>
+        <a href="">Select Location</a>
+        <br>
+        <a href="">小米公司儿童信息保护规则 </a><span>|</span>
+        <a href="">小米商城隐私政策</a><span>|</span>
+        <a href="">小米商城用户协议</a>
+        <br>
+        &copy;<a href="">mi.com</a>
+        京ICP证110507号
+        <a href="">京ICP备10046444号</a>
+        <a href="">京公网安备11010802020134号</a>
+        <a href="">京网文[2020]0276-042号</a>
+        <br>
+        <a href="">（京）网械平台备字（2018）第00005号</a>
+        <a href="">互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+        <a href="">营业执照</a>
+        <a href="">医疗器械质量公告</a>
+        <br>
+        <a href="">增值电信业务许可证</a>
+        网络食品经营备案 京食药网食备202010048 
+        <a href="">食品经营许可证</a>
+        <br>
+        违法和不良信息举报电话：171-5104-4404
+        <a href="">知识产权侵权投诉</a>
+        本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+    </p>
+</div>
+<!-- 网站认证模块 -->
+<div class="footer_img banxing">
+    <a href=""><img src="./img/truste.png" alt=""></a>
+    <a href=""><img src="./img/v-logo-2.png" alt=""></a>
+    <a href=""><img src="./img/消费.png" alt=""></a>
+    <a href="" class="anquan"><img src="./img/安全1.png" alt=""></a>
+</div>
+<div class="footer_slogan banxing">
+    
+</div>
+        </div>
+        
+       </footer>
+   </div>
+   <!-- 侧边栏 -->
+   <div class="asid1">
+    <a href="JavaScript:"><i class="iconfont icon-shouji"></i></a>
+    <a href="JavaScript:"><i class="iconfont icon-personal"></i></a>
+    <a href="JavaScript:"><i class="iconfont icon-editor2"></i></a>
+    <a href="JavaScript:"><i class="iconfont icon-service"></i></a>
+    <a href="JavaScript:"><i class="iconfont icon-gouwuche"></i></a>
+    <a href="#"><i class="iconfont icon-huidingbu"></i></a>
+
+   </div>
+  
+</body>
+</html>
